@@ -13,19 +13,17 @@ function Footer() {
   return (
     <div className="footer">
       <h2 className="logo" onClick={() => topFunction()}>
-        CryptoTracker<span>.</span>
+      Crypto Compass
       </h2>
       <div className="social-links">
-        <a href="https://facebook.com">
-          <FacebookIcon className="social-link" />
-        </a>
-        <a href="mailto:avivashishta@gmail.com">
+       
+        <a href="kenasbiju2@gmail.com">
           <EmailIcon className="social-link" />
         </a>
-        <a href="https://www.twitter.com">
+        <a href="https://x.com/kenas01?s=21&t=y0QNBKgfSTUnKtPPfnHiEw">
           <TwitterIcon className="social-link" />
         </a>
-        <a href="https://www.instagram.com">
+        <a href="https://www.instagram.com/kenazz_?igsh=MTQ3Nm5mNmkycHp1MQ==">
           <InstagramIcon className="social-link" />
         </a>
       </div>
