@@ -46,7 +46,7 @@ function CoinPage() {
     setDays(event.target.value);
     const prices = await getCoinPrices(id, event.target.value, priceType);
     if (prices) {
-      settingChartData(setChartData, prices, coin);
+      settingChartData(setChartData, prices, coin)
       setLoading(false);
     }
   };

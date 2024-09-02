@@ -64,6 +64,7 @@ function SelectCoin({
       <SelectDays
         days={days}
         handleDaysChange={(e) => handleDaysChange(e)}
+        
         noText={true}
       />
     </div>
